@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Welcome to student records API!" + "created by Rishabh Aggarwal"
+    return "Hello world! \n - from Rishabh Aggarwal"
 
 
 if __name__ == "__main__":
